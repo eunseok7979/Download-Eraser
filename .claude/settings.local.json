@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where:*)",
+      "Bash(py:*)",
+      "Bash(cmd /c \"python --version\")",
+      "Bash(powershell -Command \"python --version\")",
+      "Bash(powershell -Command \"Get-Command python | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell -Command:*)",
+      "Bash(C:ProgramDataanaconda3python.exe \"C:\\\\Users\\\\susse\\\\OneDrive\\\\Claude\\\\Duplicate Eraser\\\\find_duplicate_videos.py\" \"E:\"\")",
+      "Bash(C:/ProgramData/anaconda3/python.exe:*)",
+      "Bash(findstr:*)",
+      "Bash(C:ProgramDataanaconda3python.exe find_duplicate_videos.py \"E:\\\\\")",
+      "Bash(\"C:\\\\ProgramData\\\\anaconda3\\\\python.exe\":*)"
+    ]
+  }
+}
